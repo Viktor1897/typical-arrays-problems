@@ -16,9 +16,9 @@ exports.max = function max (array = []) {
 }
 
 exports.avg = function avg (array = []) {
-  let arrAverage = 0;
+  let arrSum = 0;
   for (elem of array) {
-    arrAverage += elem;
+    arrSum += elem;
   }
-  return arrAverage/array.length || 0;
+  return arrSum/array.length || 0;
 }
